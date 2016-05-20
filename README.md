@@ -5,5 +5,6 @@ Ejercicio 1. En el archivo 1pagoestacionamiento.cpp escribir los casos de prueba
 1 a 5 horas : $10
 
 6  10 horas : $9
+
 más de 10 horas : $7
 
