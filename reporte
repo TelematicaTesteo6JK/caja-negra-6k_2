@@ -1,0 +1,15 @@
+----Partición de equivalencia----
+ * Casos erróneos: Balances menores a 1:
+	Se comprobó con el valor de 0  y con -9, lo que da como resultado un error.
+ * Casos correctos : Balances mayores a 0:
+   Se probó con el valor de 8, lo que da un resultado esperado.
+
+ ----Análisis de valores límite----
+  * Caso menor a 1:
+	La respuesta a este caso es que hay un error.
+  * Caso <1000:
+	Se regresa el rendimiento de 999  es decir 1%.
+  * Caso 1000 a 10000:
+	Se regresa el rendimiento equivalente al 3% de 1001.
+  • Caso >10000:
+	Muestra el rendimiento del 5% de 10001.
